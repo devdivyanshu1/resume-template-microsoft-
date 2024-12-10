@@ -91,7 +91,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Indian Institute Of Technology(BHU),Varanasi}{Varanasi, India}
-      {Bachelor of Technology -  CGPA: 8}{Nov 2021 - Present}
+      {Bachelor of Technology (B-Tech) -  CGPA: 8}{Nov 2021 - Present}
     \resumeSubHeadingListEnd
 	 \section{Skills}
 \begin{description}[font=$\bullet$, topsep=0pt, itemsep=0pt]
@@ -122,30 +122,34 @@
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeSubheading
-        {\href{https://github.com/devdivyanshu1/book_store_app}{Book Store App}}{Mar 2024}
-        {ReactJS, NodeJS, ExpressJS, MongoDB, HTML, CSS \hspace{10pt} | \hspace{10pt} \href{https://github.com/devdivyanshu1/book_store_app}{Git}}{}
+      {\href{https://github.com/devdivyanshu1/bookstore-verse}{Bookstore Verse} - Book Store Application}{Mar 2024}
+        {ReactJS, NodeJS, ExpressJS, MongoDB, JavaScript, CSS \hspace{10pt} | \hspace{10pt} \href{https://github.com/devdivyanshu1/bookstore-verse}{Git}}{}
+
     \resumeItemListStart
-        \item Developed a full-stack \textbf{bookstore app} that enables users to \textbf{browse, search, and manage} book listings.
+   \item Developed a full-stack \textbf{bookstore app} that enables users to \textbf{browse, search, and manage} book listings.
         \item Implemented \textbf{user authentication} using JWT, ensuring secure login and registration processes.
         \item Enhanced the user experience by adopting a \textbf{responsive design}, optimizing the app for various devices screen.
         \item Integrated \textbf{real-time data handling} to display book availability, reducing unnecessary data load by \textbf{25\%}.
-        \item Ensured scalability and smooth operation by utilizing best practices for \textbf{data management} and \textbf{API design}.
+        \item Ensured scalability and smooth operation by utilizing best practices for \textbf{data management} and \textbf{API design}.   
     \resumeItemListEnd
     \resumeSubheading
-        {\href{https://github.com/devdivyanshu1/moneytracker-app}{Money Tracker}}{Jan 2024}
-        {ReactJS, NodeJS, ExpressJS, MongoDB, Chart.js \hspace{10pt} | \hspace{10pt} \href{https://github.com/devdivyanshu1/moneytracker-app}{Git}}{}
+     {\href{https://github.com/devdivyanshu1/fintrack-app}{FinTrack} - Money Tracker App}{Jan 2024}
+        {ReactJS, NodeJS, ExpressJS, MongoDB, JavaScript \hspace{10pt} | \hspace{10pt} \href{https://github.com/devdivyanshu1/fintrack-app}{Git}}{}
+
     \resumeItemListStart
  \item Developed a \textbf{full-stack Money Tracker app} to track \textbf{income and expenses}, enabling users to manage \textbf{over 500 transactions} with features for \textbf{adding, editing, and deleting entries}.
-\item Created a \textbf{user-friendly interface} with \textbf{real-time summaries and data visualization}.
+\item Created a \textbf{user-friendly interface} with \textbf{real-time summaries and data visualization}, enabling users to effortlessly track, analyze, and visualize key metrics and financial trends for better decision-making and insights.
+
 \item Integrated a \textbf{secure backend} using \textbf{Node.js, Express, and MongoDB}, achieving \textbf{under 200ms response times} for API requests while efficiently managing data storage.
 
     \resumeItemListEnd
     \resumeSubheading
-        {\href{https://github.com/devdivyanshu1/real_estate_platform}{Real Estate Platform}}{Dec 2023}
+      {\href{https://real-estate-nine-omega-94.vercel.app/}{DevEstate} - Real Estate Platform}{Dec 2023}
         {ReactJS, JavaScript, HTML, CSS \hspace{10pt} | \hspace{10pt} \href{https://github.com/devdivyanshu1/real_estate_platform}{Git}}{}
+
     \resumeItemListStart
-    \item Developed a \textbf{responsive real estate app} for seamless browsing of property listings with an intuitive interface.
-        \item Implemented \textbf{state management and routing}, improving navigation and reducing load times by \textbf{20\%} through efficient data handling and page transitions.
+    \item Built a \textbf{responsive real estate app} for seamless browsing of property listings with an intuitive interface.
+       \item Implemented \textbf{state management and routing} to streamline navigation, reducing load times by \textbf{20\%} by optimizing data flow and enhancing page transitions for a smoother user experience.
         \item Designed \textbf{10+ interactive UI components}, enhancing user engagement and providing a dynamic experience.
         \item Integrated \textbf{real-time search and filter options} to allow users to quickly find properties based on preferences.
     \resumeItemListEnd
