@@ -1,0 +1,163 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{pifont}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    {\Huge \scshape Divyanshu Dev} \\ \vspace{1pt}
+    New Delhi, India \\ \vspace{1pt}
+    \small\href{tel:+917979819386}{\raisebox{-0.1\height}\faPhone\ \underline{+91-7979819386} ~} 
+    \href{mailto:divyanshu.devv29@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{divyanshu.devv29@gmail.com} ~}
+    \href{https://www.linkedin.com/in/divyanshu-dev-4b4a002a7/}{\raisebox{-0.2\height}\faLinkedin\ \underline{divyanshu-dev} ~} 
+    \href{https://github.com/devdivyanshu1}{\raisebox{-0.2\height}\faGithub\ \underline{devdivyanshu1} ~}
+    \href{https://leetcode.com/u/divyanshudevvv/}{\raisebox{-0.2\height}\faCode\ \underline{LeetCode} ~}
+\end{center}
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute Of Technology(BHU),Varanasi}{Varanasi, India}
+      {Bachelor of Technology -  CGPA: 8}{Nov 2021 - Present}
+    \resumeSubHeadingListEnd
+	 \section{Skills}
+\begin{description}[font=$\bullet$, topsep=0pt, itemsep=0pt]
+    \item\textbf{Languages}: C++, C, JavaScript, Python
+    \item\textbf{Frameworks}: ReactJS, NodeJS, ExpressJS, Bootstrap, Tailwind, Material UI
+    \item\textbf{Tools}: Git, GitHub,Visual Studio, Postman, Netlify, MongoDB, PostgreSQL, MySQL
+\end{description}
+
+
+
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {IT Jobxs}{}
+    {Software Development Intern}{May 2024 - July 2024}
+    \resumeItemListStart
+    \item Enhanced webpage design for responsiveness, optimizing performance across devices, leading to a \textbf{20\% increase in user engagement} through layout redesign and responsive CSS techniques.
+       \item Implemented user verification and authentication, improving account security on IT Jobxs with a \textbf{30\% decrease in unauthorized login attempts} through secure login protocols and session management.
+        \item Solved engineering challenges by detecting and removing fake bots and posts, reducing spam submissions by \textbf{40\%}, through advanced bot detection algorithms and database cleanup.
+        \item Developed interactive web pages and integrated \textbf{Google reCAPTCHA} for enhanced security, resulting in \textbf{a 50\% reduction in bot-driven traffic}, by adding reCAPTCHA to critical user input forms on the website.
+        \item \textbf{Exposure to:} HTML, CSS, JavaScript, Bootstrap, MySQL, PHP.
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {\href{https://github.com/devdivyanshu1/book_store_app}{Book Store App}}{Mar 2024}
+        {ReactJS, NodeJS, ExpressJS, MongoDB, HTML, CSS \hspace{10pt} | \hspace{10pt} \href{https://github.com/devdivyanshu1/book_store_app}{Git}}{}
+    \resumeItemListStart
+        \item Developed a full-stack \textbf{bookstore app} that enables users to \textbf{browse, search, and manage} book listings.
+        \item Implemented \textbf{user authentication} using JWT, ensuring secure login and registration processes.
+        \item Enhanced the user experience by adopting a \textbf{responsive design}, optimizing the app for various devices screen.
+        \item Integrated \textbf{real-time data handling} to display book availability, reducing unnecessary data load by \textbf{25\%}.
+        \item Ensured scalability and smooth operation by utilizing best practices for \textbf{data management} and \textbf{API design}.
+    \resumeItemListEnd
+    \resumeSubheading
+        {\href{https://github.com/devdivyanshu1/moneytracker-app}{Money Tracker}}{Jan 2024}
+        {ReactJS, NodeJS, ExpressJS, MongoDB, Chart.js \hspace{10pt} | \hspace{10pt} \href{https://github.com/devdivyanshu1/moneytracker-app}{Git}}{}
+    \resumeItemListStart
+ \item Developed a \textbf{full-stack Money Tracker app} to track \textbf{income and expenses}, enabling users to manage \textbf{over 500 transactions} with features for \textbf{adding, editing, and deleting entries}.
+\item Created a \textbf{user-friendly interface} with \textbf{real-time summaries and data visualization}.
+\item Integrated a \textbf{secure backend} using \textbf{Node.js, Express, and MongoDB}, achieving \textbf{under 200ms response times} for API requests while efficiently managing data storage.
+
+    \resumeItemListEnd
+    \resumeSubheading
+        {\href{https://github.com/devdivyanshu1/real_estate_platform}{Real Estate Platform}}{Dec 2023}
+        {ReactJS, JavaScript, HTML, CSS \hspace{10pt} | \hspace{10pt} \href{https://github.com/devdivyanshu1/real_estate_platform}{Git}}{}
+    \resumeItemListStart
+    \item Developed a \textbf{responsive real estate app} for seamless browsing of property listings with an intuitive interface.
+        \item Implemented \textbf{state management and routing}, improving navigation and reducing load times by \textbf{20\%} through efficient data handling and page transitions.
+        \item Designed \textbf{10+ interactive UI components}, enhancing user engagement and providing a dynamic experience.
+        \item Integrated \textbf{real-time search and filter options} to allow users to quickly find properties based on preferences.
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\section{Achievements}
+\begin{description}[font=$\bullet$]
+    \item Achieved \textbf{Max Rating on CodeChef: 1773 (3-star)}. \href{https://www.codechef.com/users/divyanshu_dev}{CodeChef Profile}
+    \item Achieved \textbf{Max Rating on LeetCode: 1779}. \href{https://leetcode.com/u/divyanshudevvv/}{LeetCode Profile}
+    \item Secured a \textbf{Global Rank of 80} in \textbf{CodeChef Starters Round 155 (Div 2)}.
+    \item Secured a \textbf{Global Rank of 113} in \textbf{CodeChef Starters (Div 4)}. 
+    \item Secured a \textbf{Global Rank of 943} in \textbf{LeetCode Biweekly Contest 143}.
+    \item Solved \textbf{800+ problems} on \textbf{LeetCode, CodeChef, and other coding platforms}.
+    \item Secured an \textbf{International Rank of 1843} and \textbf{Zonal Rank of 69} in \textbf{Finals of the 10th IMO}.
+\end{description}
+\end{document}
